@@ -46,7 +46,7 @@ class MapReduce:
         intermediate = {}
         raw_data = file_content(self.input_file)
         lines = raw_data.splitlines()
-        print(lines[0])
+
         lines = lines[1:]  # Пропускаем заголовок
         
         for line in lines:
